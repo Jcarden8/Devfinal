@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Homepage.css";
-import Banner from "../../Header/Banner/Banner"
+import Banner from "../../components/Banner/Banner"
 
 const Homepage = () => {
     return <Banner />;
