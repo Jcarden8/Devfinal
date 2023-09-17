@@ -1,5 +1,5 @@
 .header-container{
-    height: 60px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,12 +9,9 @@
 }
 
 .categories-container{
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-
 }
 
 .nav-link, .auth-link{
@@ -34,4 +31,10 @@
   .username{
     color:blue;
     margin-right:10px;
+}
+
+.home-icon{
+    color:var(--white);
+    cursor:pointer;
+    font-size:30px;
 }

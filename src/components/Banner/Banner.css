@@ -38,3 +38,13 @@
     background-color: gray;
     padding:5px 0 5px 5px;
 }
+@media(max-width:900px){
+    .banner-container{
+        grid-template-columns:1fr;
+        grid-template-rows:repeat(2,35vh);
+        grid-gap:20px;
+     }
+     .other-articles-container{
+        padding:0;
+     }
+}
