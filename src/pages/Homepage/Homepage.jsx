@@ -1,10 +1,9 @@
-import React from 'react'
-import "./Homepage.css"
+import React from 'react';
+import "./Homepage.css";
+import Banner from "../../Header/Banner/Banner"
 
 const Homepage = () => {
-    return (
-        <div>Homepage</div>
-    )
-}
+    return <Banner />;
+};
 
 export default Homepage
